@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Fator de Balanceamento 0 -->
+  <g transform="translate(0,0)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Balanceamento 0</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightblue" stroke="black" />
+    <circle cx="50" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <circle cx="150" cy="100" r="20" fill="lightgreen" stroke="black" />
+  </g>
+
+  <!-- Fator de Balanceamento -1 -->
+  <g transform="translate(200,0)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Balanceamento -1</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <line x1="150" y1="100" x2="175" y2="150" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightblue" stroke="black" />
+    <circle cx="50" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <circle cx="150" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <circle cx="175" cy="150" r="20" fill="pink" stroke="black" />
+  </g>
+
+  <!-- Fator de Balanceamento +1 -->
+  <g transform="translate(400,0)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Balanceamento +1</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <line x1="50" y1="100" x2="25" y2="150" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightblue" stroke="black" />
+    <circle cx="50" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <circle cx="150" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <circle cx="25" cy="150" r="20" fill="pink" stroke="black" />
+  </g>
+</svg>

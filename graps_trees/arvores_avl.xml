@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350">
+  <!-- Árvore desbalanceada -->
+  <g transform="translate(0,0)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Antes do Balanceamento</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <line x1="150" y1="100" x2="175" y2="150" stroke="black" />
+    <line x1="175" y1="150" x2="200" y2="200" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightblue" stroke="black" />
+    <text x="100" y="55" font-size="14" text-anchor="middle">10</text>
+    <circle cx="50" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="50" y="105" font-size="14" text-anchor="middle">5</text>
+    <circle cx="150" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="150" y="105" font-size="14" text-anchor="middle">15</text>
+    <circle cx="175" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="175" y="155" font-size="14" text-anchor="middle">20</text>
+    <circle cx="200" cy="200" r="20" fill="red" stroke="black" />
+    <text x="200" y="205" font-size="14" text-anchor="middle">25</text>
+  </g>
+
+  <!-- Seta indicando balanceamento local -->
+  <g transform="translate(250,100)">
+    <line x1="0" y1="0" x2="100" y2="0" stroke="black" stroke-width="2" />
+    <polygon points="100,0 90,-5 90,5" fill="black" />
+    <text x="50" y="-10" font-size="14" text-anchor="middle">Balanceamento Local</text>
+  </g>
+
+  <!-- Árvore balanceada após ajuste local -->
+  <g transform="translate(400,0)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Após Balanceamento Local</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <line x1="150" y1="100" x2="125" y2="150" stroke="black" />
+    <line x1="150" y1="100" x2="175" y2="150" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightblue" stroke="black" />
+    <text x="100" y="55" font-size="14" text-anchor="middle">10</text>
+    <circle cx="50" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="50" y="105" font-size="14" text-anchor="middle">5</text>
+    <circle cx="150" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="150" y="105" font-size="14" text-anchor="middle">20</text>
+    <circle cx="125" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="125" y="155" font-size="14" text-anchor="middle">15</text>
+    <circle cx="175" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="175" y="155" font-size="14" text-anchor="middle">25</text>
+  </g>
+
+  <!-- Fatores de balanceamento -->
+  <g transform="translate(0,250)">
+    <text x="300" y="30" font-size="16" text-anchor="middle">Fatores de Balanceamento</text>
+    <text x="100" y="60" font-size="14" text-anchor="middle">Raiz (10): 1 (balanceado)</text>
+    <text x="300" y="60" font-size="14" text-anchor="middle">Subárvore direita (20): 0 (perfeitamente balanceado)</text>
+    <text x="300" y="80" font-size="14" text-anchor="middle">Altura total da árvore: 3 (reduzida de 4)</text>
+  </g>
+</svg>

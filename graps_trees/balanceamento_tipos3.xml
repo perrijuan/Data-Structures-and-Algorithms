@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Passo 1: Inserção de 6 -->
+  <g transform="translate(0,0)">
+    <text x="50" y="30" font-size="16" text-anchor="middle">Passo 1: 6</text>
+    <circle cx="50" cy="50" r="20" fill="lightblue" stroke="black" />
+    <text x="50" y="55" font-size="14" text-anchor="middle">6</text>
+  </g>
+
+  <!-- Passo 2: Inserção de 4 -->
+  <g transform="translate(150,0)">
+    <text x="50" y="30" font-size="16" text-anchor="middle">Passo 2: +4</text>
+    <line x1="50" y1="50" x2="25" y2="100" stroke="black" />
+    <circle cx="50" cy="50" r="20" fill="lightblue" stroke="black" />
+    <text x="50" y="55" font-size="14" text-anchor="middle">6</text>
+    <circle cx="25" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="25" y="105" font-size="14" text-anchor="middle">4</text>
+  </g>
+
+  <!-- Passo 3: Inserção de 3 -->
+  <g transform="translate(300,0)">
+    <text x="50" y="30" font-size="16" text-anchor="middle">Passo 3: +3</text>
+    <line x1="50" y1="50" x2="25" y2="100" stroke="black" />
+    <line x1="25" y1="100" x2="0" y2="150" stroke="black" />
+    <circle cx="50" cy="50" r="20" fill="lightblue" stroke="black" />
+    <text x="50" y="55" font-size="14" text-anchor="middle">6</text>
+    <circle cx="25" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="25" y="105" font-size="14" text-anchor="middle">4</text>
+    <circle cx="0" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="0" y="155" font-size="14" text-anchor="middle">3</text>
+  </g>
+
+  <!-- Passo 4: Rotação após inserção de 3 -->
+  <g transform="translate(450,0)">
+    <text x="50" y="30" font-size="16" text-anchor="middle">Passo 4: Rotação</text>
+    <line x1="50" y1="50" x2="25" y2="100" stroke="black" />
+    <line x1="50" y1="50" x2="75" y2="100" stroke="black" />
+    <line x1="25" y1="100" x2="0" y2="150" stroke="black" />
+    <circle cx="50" cy="50" r="20" fill="lightgreen" stroke="black" />
+    <text x="50" y="55" font-size="14" text-anchor="middle">4</text>
+    <circle cx="25" cy="100" r="20" fill="pink" stroke="black" />
+    <text x="25" y="105" font-size="14" text-anchor="middle">3</text>
+    <circle cx="75" cy="100" r="20" fill="lightblue" stroke="black" />
+    <text x="75" y="105" font-size="14" text-anchor="middle">6</text>
+  </g>
+
+  <!-- Passo 5: Inserção de 12 -->
+  <g transform="translate(0,200)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Passo 5: +12</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightgreen" stroke="black" />
+    <text x="100" y="55" font-size="14" text-anchor="middle">4</text>
+    <circle cx="50" cy="100" r="20" fill="pink" stroke="black" />
+    <text x="50" y="105" font-size="14" text-anchor="middle">3</text>
+    <circle cx="150" cy="100" r="20" fill="lightblue" stroke="black" />
+    <text x="150" y="105" font-size="14" text-anchor="middle">6</text>
+    <circle cx="150" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="150" y="155" font-size="14" text-anchor="middle">12</text>
+  </g>
+
+  <!-- Passo 6: Inserção de 10 -->
+  <g transform="translate(250,200)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Passo 6: +10</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <line x1="150" y1="100" x2="175" y2="150" stroke="black" />
+    <line x1="175" y1="150" x2="150" y2="200" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightgreen" stroke="black" />
+    <text x="100" y="55" font-size="14" text-anchor="middle">4</text>
+    <circle cx="50" cy="100" r="20" fill="pink" stroke="black" />
+    <text x="50" y="105" font-size="14" text-anchor="middle">3</text>
+    <circle cx="150" cy="100" r="20" fill="lightblue" stroke="black" />
+    <text x="150" y="105" font-size="14" text-anchor="middle">6</text>
+    <circle cx="175" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="175" y="155" font-size="14" text-anchor="middle">12</text>
+    <circle cx="150" cy="200" r="20" fill="orange" stroke="black" />
+    <text x="150" y="205" font-size="14" text-anchor="middle">10</text>
+  </g>
+
+  <!-- Passo 7: Inserção de 11 e rotação final -->
+  <g transform="translate(500,200)">
+    <text x="100" y="30" font-size="16" text-anchor="middle">Passo 7: +11 e Rotação</text>
+    <line x1="100" y1="50" x2="50" y2="100" stroke="black" />
+    <line x1="100" y1="50" x2="150" y2="100" stroke="black" />
+    <line x1="50" y1="100" x2="25" y2="150" stroke="black" />
+    <line x1="50" y1="100" x2="75" y2="150" stroke="black" />
+    <line x1="150" y1="100" x2="125" y2="150" stroke="black" />
+    <line x1="150" y1="100" x2="175" y2="150" stroke="black" />
+    <circle cx="100" cy="50" r="20" fill="lightgreen" stroke="black" />
+    <text x="100" y="55" font-size="14" text-anchor="middle">6</text>
+    <circle cx="50" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="50" y="105" font-size="14" text-anchor="middle">4</text>
+    <circle cx="150" cy="100" r="20" fill="lightgreen" stroke="black" />
+    <text x="150" y="105" font-size="14" text-anchor="middle">10</text>
+    <circle cx="25" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="25" y="155" font-size="14" text-anchor="middle">3</text>
+    <circle cx="75" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="75" y="155" font-size="14" text-anchor="middle">5</text>
+    <circle cx="125" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="125" y="155" font-size="14" text-anchor="middle">11</text>
+    <circle cx="175" cy="150" r="20" fill="pink" stroke="black" />
+    <text x="175" y="155" font-size="14" text-anchor="middle">12</text>
+  </g>
+</svg>
