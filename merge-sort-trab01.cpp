@@ -1,12 +1,30 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <vector>
+#include<bits/stdc++.h>
+
+using namespace std;
+
 
 // Função para gerar números aleatórios
 int gerarAleatorio(int min, int max) {
     return min + (rand() % (max - min + 1));
 }
+
+void bubleSort(vector<int>& vetor){
+    bool flag;
+
+    for(int a=0; a<vetor.size()-1; a++){
+        flag=false;
+        for(int b=0;b<vetor.size();b++){
+            if(vetor[b]>vetor[b+1]){
+            //aplicando o swap ou troca 
+            swap(vetor[b],vetor[b+1]);
+            flag=true;
+        }
+    }
+    if(!flag) break;
+
+    }
+}
+
 
 // Função para realizar a ordenação Merge Sort
 void mergeSort(std::vector<int>& vetor) {
@@ -56,6 +74,13 @@ int main(int argc, char** argv) {
         }
     }
 
+     for (int i = 1; i < argc; i++) {
+        if (std::string(argv[i]) == "-b") {
+            tamanho = std::stoi(argv[i + 1]);
+            break;
+        }
+    }
+
     if (tamanho <= 0) {
         std::cerr << "Tamanho do vetor inválido." << std::endl;
         return 1;
@@ -70,6 +95,7 @@ int main(int argc, char** argv) {
 
     // Realiza a ordenação Merge Sort
     mergeSort(vetor);
+    bubleSort(vetor);
 
     // Imprime o vetor ordenado
     std::cout << "Vetor ordenado: ";
