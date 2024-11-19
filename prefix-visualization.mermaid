@@ -1,0 +1,29 @@
+graph TD
+    subgraph Prefixos["Árvore de Prefixos"]
+        R[Root] --> P0[0]
+        
+        P0 --> P00[00]
+        P0 --> P01[01]
+        
+        P00 --> P001[001]
+        P01 --> P011[011]
+        
+        P001 --> S1[00101]
+        P001 --> S2[001000]
+        P001 --> S3[00111]
+        
+        P011 --> S4[0111]
+        P011 --> S5[011011]
+    end
+    
+    subgraph Legenda
+        L1[Nó Interno]
+        L2[Sequência Final]
+    end
+    
+    style R fill:#f9f,stroke:#333,stroke-width:2px
+    style P0,P00,P01,P001,P011 fill:#aaf,stroke:#333
+    style S1,S2,S3,S4,S5 fill:#afa,stroke:#333
+    style L1 fill:#aaf,stroke:#333
+    style L2 fill:#afa,stroke:#333
+    style Legenda fill:#fff,stroke:#333

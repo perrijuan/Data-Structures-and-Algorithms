@@ -1,0 +1,37 @@
+graph TD
+    subgraph Nível_1["Nível 1 (1 dígito)"]
+        N1[0]
+    end
+
+    subgraph Nível_2["Nível 2 (2 dígitos)"]
+        N2_1[00]
+        N2_2[01]
+    end
+
+    subgraph Nível_3["Nível 3 (3 dígitos)"]
+        N3_1[001]
+        N3_2[011]
+    end
+
+    subgraph Grupos_Finais["Sequências Completas"]
+        G1["Grupo 001:
+        - 00101
+        - 001000
+        - 00111"]
+        
+        G2["Grupo 011:
+        - 0111
+        - 011011"]
+    end
+
+    N1 --> N2_1
+    N1 --> N2_2
+    N2_1 --> N3_1
+    N2_2 --> N3_2
+    N3_1 --> G1
+    N3_2 --> G2
+
+    style Nível_1 fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style Nível_2 fill:#f0f0f0,stroke:#333,stroke-width:2px
+    style Nível_3 fill:#e6e6e6,stroke:#333,stroke-width:2px
+    style Grupos_Finais fill:#d9d9d9,stroke:#333,stroke-width:2px
